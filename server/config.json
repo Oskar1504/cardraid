@@ -1,0 +1,4 @@
+{
+  "MONGO_ACCESS": "mongodb+srv://root:telegrambot@cluster0.9kpjc.mongodb.net/cardraid?retryWrites=true&w=majority",
+  "MONGO_DB": "cardraid"
+}

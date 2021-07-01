@@ -3,8 +3,7 @@ const router = express.Router();
 
 router.get('/',async (req, res, next) => {
     try{
-
-        res.redirect("index.html")
+        res.redirect("login.html")
     }catch(e){
         console.log(e)
         res.sendStatus(500)
