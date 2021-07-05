@@ -2,7 +2,7 @@ function login(){
     let email = document.getElementById("floatingInput"),
         password = document.getElementById("floatingPassword")
 
-    fetch(' http://localhost:3001/db/login', {
+    fetch('/db/login', {
         method: 'POST', // or 'PUT'
         headers: {
             'Content-Type': 'application/json',
